@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: black;
+    position: -webkit-sticky;
+    /* для Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: black;
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.green-box {
+    position: relative;
+    inset: 341px 300px 22px 492px;
+    width: 250px;
+    height: 120px;
+    background-color: darkblue;
+    color: white;
+    border-bottom-left-radius: 15px;
+    z-index: 2;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    height: 500px;
+    width: 1200px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background-color: #222222;
+}
+
+.containerdirection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.inside {
+    margin-left: 20px;
+}
+
+.imgcontainer {
+    height: 237px;
+    width: 500px;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.reviews {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-left: 5px solid #0e2a47;
+
+}
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1013%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(13%2c 55%2c 98%2c 1)'%3e%3c/rect%3e%3cpath d='M830.8236052465737 121.38279294084464L779.7579960460566 230.89334527139 889.2685483766021 281.9589544719071 940.3341575771191 172.44840214136167z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M699.22 542.69 a131.2 131.2 0 1 0 262.4 0 a131.2 131.2 0 1 0 -262.4 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1209.848479338456 450.61708527376794L1334.9983863931209 349.2726887850612 1108.5040828497492 325.467178219103z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M634.6913484729711-18.21507400958141L479.29862332522123-34.54750755208508 462.9661897827176 120.84521759566472 618.3589149304674 137.17765113816841z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M424.4563668879624 500.0534218017551L561.0860242083099 411.51009531432294 435.42240133191706 344.69356181419363z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M270.15 490.55 a97.15 97.15 0 1 0 194.3 0 a97.15 97.15 0 1 0 -194.3 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1013'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    height: 100vh;
+    margin: 0;
+}
+
+.gray {
+    color: gray;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.center-gradient {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.big-center-gradient {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+}
+
+.about-gd-container {
+    background-color: #0e2a47;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+video {
+    top: 0;
+    left: 0;
+    width: 600px;
+    max-height: 300px;
+    z-index: -1;
+}
+
+.transparent-container {
+    background-color: #0e2a47;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.transparent-button:hover {
+    background-color: white;
+    color: #0e2a47;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .containerdirection {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .inside {
+        margin-left: 0;
+    }
+
+    .imgcontainer {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .transparent-container {
+        max-width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+.big-left-side {
+    color: #F5DD9F;
+}
+
+.left-side {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+    color: white;
+    width: 50%;
+}
+
+.right-side {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    flex-basis: 50%;
+}
+
+.right-side img {
+    width: 100%;
+}
+
+.center-green {
+    color: #3FB950;
+    display: flex;
+    justify-content: center;
+}
+
+.some-color-center {
+    color: #33B3AE;
+    display: flex;
+    justify-content: center;
+}
+
+.white-icon {
+    fill: white;
+}
+
+.center-anim {
+    position: relative;
+    text-decoration: none;
+}
+
+.center-anim::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: width .5s ease;
+}
+
+.center-anim:hover::after {
+    width: 100%;
+}
+
+
+.glow {
+    color: rgba(255, 255, 255, .3);
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+}
+
+.row {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.pic:hover {
+    transform: none;
+}
+
+.pic {
+    box-shadow: 0px 10px 5px grey;
+    border-radius: 20px;
+    transform: perspective(600px) rotateX(351deg) scale(0.7);
+    transition: 1s;
+}

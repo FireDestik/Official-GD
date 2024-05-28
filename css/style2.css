@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(24%2c 106%2c 59%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c374.591C73.851%2c365.059%2c150.23%2c371.231%2c215.244%2c334.926C282.547%2c297.343%2c331.231%2c235.714%2c369.02%2c168.526C409.389%2c96.752%2c457.077%2c17.231%2c439.129%2c-63.137C421.338%2c-142.803%2c341.382%2c-189.579%2c277.655%2c-240.589C223.794%2c-283.702%2c158.691%2c-301.873%2c98.58%2c-335.731C16.679%2c-381.863%2c-48.068%2c-496.774%2c-139.663%2c-475.648C-229.476%2c-454.933%2c-237.475%2c-326.002%2c-285.28%2c-247.197C-323.982%2c-183.398%2c-379.644%2c-129.882%2c-393.852%2c-56.627C-408.452%2c18.647%2c-388.242%2c93.708%2c-365.611%2c166.969C-340.079%2c249.622%2c-329.407%2c352.798%2c-254.183%2c395.516C-178.729%2c438.365%2c-86.058%2c385.699%2c0%2c374.591' fill='%2313552f'%3e%3c/path%3e%3cpath d='M1440 1052.53C1538.066 1048.305 1642.446 1056.539 1724.045 1001.983 1805.144 947.762 1834.531 847.375 1877.7 759.891 1922.267 669.575 1985.324 582.886 1980.49 482.289 1975.476 377.94100000000003 1918.307 283.762 1850.983 203.88099999999997 1783.0149999999999 123.23599999999999 1694.176 66.72399999999999 1596.5720000000001 26.764999999999986 1490.315-16.736999999999966 1379.218-47.653999999999996 1264.991-36.02499999999998 1135.326-22.823999999999955 999.591 6.6159999999999854 905.778 97.094 808.879 190.548 756.893 326.337 749.881 460.776 743.159 589.651 794.832 714.922 868.008 821.22 933.79 916.777 1032.229 983.662 1139.778 1027.154 1234.809 1065.584 1337.588 1056.942 1440 1052.53' fill='%231d7f47'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: black;
+    position: -webkit-sticky;
+    /* для Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: black;
+}
+
+body {
+    font-family: "Reddit Sans", sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+.green-box {
+    position: relative;
+    inset: 341px 300px 22px 492px;
+    width: 250px;
+    height: 120px;
+    background-color: darkblue;
+    color: white;
+    border-bottom-left-radius: 15px;
+    z-index: 2;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    height: 337px;
+    width: 600px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.containerdirection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 80px;
+}
+
+.inside {
+    margin-left: 20px;
+}
+
+.imgcontainer {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+}
+
+.reviews {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-left: 5px solid #0e2a47;
+
+}
+
+.gray {
+    color: gray;
+}
+
+.gradient {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.center-gradient {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.about-gd-container {
+    background-color: #0e2a47;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+video {
+    top: 0;
+    left: 0;
+    width: 600px;
+    max-height: 300px;
+    z-index: -1;
+}
+
+.transparent-container {
+    background-color: #0e2a47;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    align-self: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.transparent-button:hover {
+    background-color: white;
+    color: #0e2a47;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .containerdirection {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .inside {
+        margin-left: 0;
+    }
+
+    .imgcontainer {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    .transparent-container {
+        max-width: 100%;
+    }
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+.new-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.item {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%
+}
+
+.pic:hover {
+    transform: none;
+}
+
+.pic {
+    border-radius: 20px;
+    transform: perspective(600px) rotateX(351deg) scale(0.7);
+    transition: 1s;
+    object-fit: contain;
+    width: 30vw;
+    max-width: 337px;
+    height: auto;
+
+}
+
+.glow {
+    color: rgba(255, 255, 255, .3);
+    text-shadow: 0 0 15px rgba(255, 255, 255, .5), 0 0 10px rgba(255, 255, 255, .5);
+}
+
+.glow2 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow2 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow2 {
+    from {
+        text-shadow: 0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 30px #13552F,
+            0 0 40px #13552F,
+            0 0 50px #13552F,
+            0 0 60px #13552F,
+            0 0 70px #13552F;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff,
+            0 0 30px #13552F,
+            0 0 40px #13552F,
+            0 0 50px #13552F,
+            0 0 60px #13552F,
+            0 0 70px #13552F,
+            0 0 80px #13552F;
+    }
+}
+
+.transparent-container-green {
+    background: linear-gradient(to right, #1D7F47, #13552F, #186A3B);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Reddit Sans', sans-serif;
+}
+
+.transparent-container-green-RUS {
+    background: linear-gradient(to right, #1D7F47, #13552F, #186A3B);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'Reddit Sans', sans-serif;
+    src: url('RedditSans-Regular.ttf') format('ttf');
+    unicode-range: U+0020-007F;
+}
+
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    src: url('NotoSans-Regular.ttf') format('ttf');
+    unicode-range: U+0400-04FF;
+}
+
+.rus-font {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.my-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
